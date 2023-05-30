@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: royalblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url(images/pngegg.png);
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.principal {
+    color: #ffffff;
+}
+
+.principalImg {
+    width: 120px;
+    border-radius: 50%;
+    border: 8px solid;
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+
+.nome-principal {
+    font-size: 33px;
+    margin-bottom: 8px;
+}
+
+.profissao {
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.info-section {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.info {
+    width: 400px;
+    height: 200px;
+    background-color: yellowgreen;
+    padding: 15px;
+    border-radius: 32px;
+}
+
+.info-titulo {
+    font-size: 20pxpx;
+    margin-bottom: 10px;
+}
+
+.contato {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.tamanhoImg {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+     list-style-type: none;
+}
